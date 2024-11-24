@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "forgodapp",
+    "slug": "forgodapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.junior41.forgodapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.junior41.forgodapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ae243c9-19f9-40f5-82da-3779ab67d9e0"
+      }
+    },
+    "owner": "junior41",
+    "updates": {
+      "url": "https://u.expo.dev/7ae243c9-19f9-40f5-82da-3779ab67d9e0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
